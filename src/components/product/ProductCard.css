@@ -1,0 +1,21 @@
+.product_card{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 8px; 
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: box-shadow 0.3s ease;
+}
+
+.product_card:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.product_image{
+    width: 100%; 
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product_card:hover .product_image {
+    transform: scale(1.1);  
+}

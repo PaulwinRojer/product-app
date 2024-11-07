@@ -1,0 +1,20 @@
+.footer_logo{
+    height: 60px;
+    margin-bottom: 10px,
+}
+
+.footer_layout{
+    padding: 30px 25px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+.footer_quick_link{
+    padding-left: 5rem;
+}
+
+@media (max-width: 767px) {
+    .footer_quick_link{
+        padding-left: 0rem;
+    }
+}
